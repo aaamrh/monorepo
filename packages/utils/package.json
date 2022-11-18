@@ -1,0 +1,26 @@
+{
+  "name": "@ma/utils",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "aaamrh <aaamrh@163.com>",
+  "homepage": "https://github.com/aaamrh/monorepo#readme",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "publishConfig": {
+    "registry": "http://127.0.0.1:4873/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaamrh/monorepo.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@ma/utils.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/aaamrh/monorepo/issues"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "npmClient": "pnpm",
+  "useNx": true,
+  "useWorkspaces": true,
+  "version": "independent",
+  "packages": ["packages/*"],
+  "publishConifg": {
+    "registry": "http://127.0.0.1:4873"
+  },
+  "command": {
+    "publish": {
+      "ignoreChanges": ["test"],
+      "message": "chore: release"
+    }
+  }
+}
