@@ -1,3 +1,5 @@
-console.log(324)
+console.log(1324);
 
-export default function hi () {console.log('hello')}
+export default function hi() {
+  console.log("hello");
+}
